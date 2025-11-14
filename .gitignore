@@ -1,0 +1,41 @@
+# Ignorar configuraciones locales de VS Code
+.vscode/
+
+# Ignorar dependencias de Node.js
+node_modules/
+
+# Ignorar archivos de compilación y distribución
+dist/
+build/
+
+# Ignorar archivos temporales y de sistema
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.y   # Si tienes archivos con extensión .y
+
+# Ignorar archivos de entorno
+.env
+.env.*
+
+# Ignorar cachés
+.cache/
+*.cache
+
+# Ignorar archivos de paquetes
+*.zip
+*.tar
+*.gz
+
+# Ignorar archivos de sistema (Windows / macOS)
+Thumbs.db
+.DS_Store
+
+# Ignorar carpetas de sincronización (si usas OneDrive)
+OneDriveTemp/
+
+# Ignorar carpetas de sincronización (si usas OneDrive)
+*.py
