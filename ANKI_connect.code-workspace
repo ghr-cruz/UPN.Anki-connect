@@ -1,0 +1,29 @@
+{
+  "folders": [
+    { "path": "anki-templates" },
+    { "path": "scripts" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.exclude": {
+      "**/__pycache__": true
+    }
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Sync Basic",
+        "type": "shell",
+        "command": "python scripts/sync_anki_templates.py \"Basic\"",
+        "group": "build"
+      },
+      {
+        "label": "Sync Cloze",
+        "type": "shell",
+        "command": "python scripts/sync_anki_templates.py \"Cloze\"",
+        "group": "build"
+      }
+    ]
+  }
+}
